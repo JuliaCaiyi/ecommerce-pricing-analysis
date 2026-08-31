@@ -1,0 +1,10 @@
+品类,商品数,观测数,弹性beta,聚类SE,t值,p值,CI下界,CI上界
+electronics.video.tv,38,411,-2.649,0.787,-3.36,0.0008,-4.19,-1.11
+electronics.smartphone,241,3802,-1.179,0.376,-3.13,0.0017,-1.92,-0.44
+appliances.kitchen.washer,32,359,-1.082,1.129,-0.96,0.3382,-3.3,1.13
+electronics.clocks,29,296,-0.681,0.826,-0.82,0.4101,-2.3,0.94
+appliances.kitchen.refrigerators,21,163,-0.549,1.457,-0.38,0.7064,-3.4,2.31
+electronics.tablet,15,132,-0.144,1.761,-0.08,0.9347,-3.6,3.31
+computers.notebook,38,283,-0.117,0.796,-0.15,0.8832,-1.68,1.44
+appliances.environment.vacuum,33,292,-0.029,0.367,-0.08,0.9373,-0.75,0.69
+electronics.audio.headphone,23,274,0.258,0.478,0.54,0.5895,-0.68,1.19

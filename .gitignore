@@ -1,0 +1,18 @@
+# 数据文件不入库：ecommerce.db 463MB，超过 GitHub 单文件 100MB 上限；
+# 原始数据可由 scripts/ 下的脚本从 Kaggle 数据集复现
+data/
+!data/.gitkeep
+
+# 中间结果里体积较大的用户级明细
+output/rfm_users.csv
+output/rfm_raw.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# macOS
+.DS_Store
