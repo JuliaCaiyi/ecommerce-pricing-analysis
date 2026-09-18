@@ -26,9 +26,9 @@
 
 2. **智能手机品类存在明确的价格断崖。** 客单价越过约 **300 美元**后，浏览转加购率由 6.70% 骤降至 3.48%，浏览转下单率相对下降 40%。
 
-3. **品类间价格弹性相差 11 倍。** 电视 −2.65、智能手机 −1.18、其余品类合并 −0.24；九个品类中仅两个统计显著，其余因样本不足被明确剔除。平台整体弹性仅 −0.67，属缺乏弹性——**全平台无差别降价 10% 会使 GMV 下降约 4%。**
+3. **九个品类中，只有电视的价格弹性显著突破补贴盈亏临界线。** 电视 −2.65、智能手机 −1.18，二者各自显著异于零（p=0.0008 / 0.0017）；其余七个品类因样本不足被明确剔除，合并估计为 −0.24（p=0.093，不显著异于零）。补贴要拉高 GMV 的条件是 |β| > 1，因此真正需要检验的是 β 与 **−1** 的距离：电视显著突破（H₀: β=−1，p=0.036），智能手机与 −1 无法区分（p=0.634），其余品类显著弱于 −1（t=5.31，p<0.0001）。**不主张品类间弹性的倍数关系**——该比值的分母不显著，区间不稳定。平台整体弹性 −0.67 且显著（p=0.0002），属缺乏弹性——**全平台无差别降价 10% 会使 GMV 下降约 4%。**
 
-4. **最优分配的效率是均匀分配的 5.4 倍，但整体仍不划算。** 同样 5% 的预算，优化分配带来 +1.51% 的 GMV，均匀分配仅 +0.28%；然而整体补贴 ROI 只有 0.30，仅电视品类超过 1（1.44）。
+4. **最优分配把全部预算收敛到两个品类，但整体仍不划算。** 5% 的预算下，优化分配带来 +1.51% 的 GMV，其余品类最优补贴率为零；然而整体补贴 ROI 只有 0.30，仅电视品类超过 1（1.44），智能手机的边际 ROI 仅 0.17。该结论对「其他品类」那个不显著的估计不敏感：β 取 −0.24 / 0 / −0.52（CI 下界）三种设定，最优补贴率均为 电视 10% / 智能手机 5.49% / 其他 0%，GMV 增幅与 ROI 完全相同。
 
 5. **目标函数的选择直接改变结论。** 以毛利为目标时，三个品类的最优补贴率均为零——最大化 GMV 的方案需付出 **18.5% 的毛利**换取 1.51% 的 GMV。补贴划算的临界条件为 |β| > 1/毛利率，电视需毛利率达 **37.8%** 才值得补贴。
 
@@ -38,7 +38,7 @@
 
 1. **不做全品类价格补贴，把补贴规模压缩至 GMV 的 0.5% 左右并集中投向电视品类。** 该规模内 ROI 为 1.44；超出部分只能流向弹性不足的手机品类，边际 ROI 仅 0.17。
 
-2. **将补贴从「价格策略」改为「定向策略」。** 品类维度弹性相差 11 倍、人群维度价值相差 10 倍，无差别降价在两个维度上同时浪费预算。优先对 1,924 名高价值流失预警用户定向触达，成本远低于全品类降价且不侵蚀正常购买用户的毛利。
+2. **将补贴从「价格策略」改为「定向策略」。** 品类维度只有一个品类的弹性够得上补贴门槛、人群维度人均价值相差 10 倍，无差别降价在两个维度上同时浪费预算。优先对 1,924 名高价值流失预警用户定向触达，成本远低于全品类降价且不侵蚀正常购买用户的毛利。
 
 3. **针对 300 美元以上的高价商品，改用不侵蚀毛利的转化手段。** 价格断崖反映的是「高价商品缺乏购买信心」而非「价格绝对值过高」，应优先测试分期免息、以旧换新、延保与评价背书；同时新用户运营资源应集中于首次访问后的 7 天内（首周留存 32.8%，此后曲线迅速走平）。
 
@@ -77,9 +77,9 @@ The analysis is based on the platform's complete October 2019 behavioural log (4
 
 2. **Smartphones show a clear price cliff.** Above roughly **$300**, view-to-cart conversion drops from 6.70% to 3.48%, and view-to-purchase conversion falls 40% in relative terms.
 
-3. **Price elasticity varies 11x across categories.** TV −2.65, smartphones −1.18, all remaining categories pooled −0.24. Only two of nine categories were statistically identified; the rest were explicitly dropped for insufficient statistical power. Platform-wide elasticity is only −0.67 — inelastic, meaning **an across-the-board 10% price cut would reduce GMV by roughly 4%.**
+3. **Of nine categories, only TV clears the break-even elasticity for a subsidy.** TV −2.65 and smartphones −1.18 are each significantly different from zero (p = 0.0008 / 0.0017); the remaining seven were explicitly dropped for insufficient power and pool to −0.24 (p = 0.093, not significantly different from zero). Because a subsidy only raises GMV when |β| > 1, the relevant test is the distance from **−1**, not from 0: TV clears it (H₀: β = −1, p = 0.036), smartphones are indistinguishable from −1 (p = 0.634), and the pooled remainder is significantly weaker than −1 (t = 5.31, p < 0.0001). **No claim is made about the ratio of elasticities across categories** — the denominator of that ratio is not significant, so the ratio is unstable. Platform-wide elasticity is −0.67 and significant (p = 0.0002) — inelastic, meaning **an across-the-board 10% price cut would reduce GMV by roughly 4%.**
 
-4. **Optimal allocation is 5.4x more efficient than a uniform split, yet still not worthwhile overall.** On the same 5% budget, optimised allocation delivers +1.51% GMV versus +0.28% for a uniform split — but overall subsidy ROI is only 0.30, and TV is the sole category above 1 (1.44).
+4. **Optimal allocation concentrates the entire budget in two categories, yet is still not worthwhile overall.** On a 5% budget, optimised allocation delivers +1.51% GMV with a zero optimal subsidy for every other category — but overall subsidy ROI is only 0.30, TV is the sole category above 1 (1.44), and the marginal ROI on smartphones is just 0.17. This conclusion is insensitive to the non-significant pooled estimate: setting β to −0.24, 0, or −0.52 (the CI lower bound) yields the identical optimum of 10% / 5.49% / 0%.
 
 5. **The choice of objective function changes the conclusion outright.** Maximising gross profit yields an optimal subsidy rate of zero for all three groups: the GMV-maximising plan costs **18.5% of gross profit** to buy 1.51% of GMV. The break-even condition is |β| > 1/margin, so subsidising TV only pays off at a gross margin above **37.8%**.
 
@@ -89,7 +89,7 @@ The analysis is based on the platform's complete October 2019 behavioural log (4
 
 1. **Do not run an across-the-board price subsidy. Cut the programme to roughly 0.5% of GMV and concentrate it on the TV category.** ROI within that scale is 1.44; anything beyond it can only flow to smartphones, where marginal ROI is 0.17.
 
-2. **Shift subsidy from a pricing lever to a targeting lever.** Elasticity varies 11x across categories and customer value varies 10x across segments — undifferentiated discounting wastes budget on both dimensions simultaneously. Prioritise direct outreach to the 1,924 at-risk high-value customers: far cheaper than category-wide discounting, and it does not erode margin on customers who would have paid full price.
+2. **Shift subsidy from a pricing lever to a targeting lever.** Only one category clears the elasticity threshold for a subsidy, and customer value varies 10x across segments — undifferentiated discounting wastes budget on both dimensions simultaneously. Prioritise direct outreach to the 1,924 at-risk high-value customers: far cheaper than category-wide discounting, and it does not erode margin on customers who would have paid full price.
 
 3. **For products above $300, use conversion levers that do not erode margin.** The price cliff reflects a confidence gap on high-ticket items rather than absolute price resistance, so instalment plans, trade-in programmes, extended warranties and review social proof should be tested first. In parallel, concentrate new-user resources in the first seven days after acquisition — week-1 retention is 32.8%, after which the curve flattens sharply.
 

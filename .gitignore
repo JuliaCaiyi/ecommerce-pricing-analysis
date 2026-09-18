@@ -16,3 +16,7 @@ venv/
 
 # macOS
 .DS_Store
+
+# 项目解析文档（含面试题库与简历要点，属于个人备考材料，不公开）
+output/数据分析项目解析.html
+output/数据分析项目解析.pdf
